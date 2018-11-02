@@ -1,0 +1,10 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /rabbitmq
+#rabbit mq的配置
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
